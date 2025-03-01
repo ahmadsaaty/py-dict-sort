@@ -1,3 +1,9 @@
+name= input("enter name: ")
+dict1={}
+while name != "stop":
+    age= input("enter age: ")
+    dict1[name]=str(age)
+    name= input("enter name: ")
 
+print (dict1)    
 
-{"Alice": 10, "Bob": 20, "Charlie": 10, "David": 30}
